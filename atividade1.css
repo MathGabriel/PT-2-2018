@@ -1,0 +1,52 @@
+table tr.linha_principal td{
+	background-color: #dddddd;
+	text-align: left;
+	color: #606060;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	font-weight: bolder;
+}
+
+.res_table td{
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.tabela{
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+.tabela tr{	
+	border-bottom: 1px solid #DEEDE6;
+}
+.entr{
+	background-color: green;
+	text-align: center;
+	border-radius: 50px;
+	color: #ffffff;
+	width: 70%;
+}
+.pend{
+	background-color: blue;
+	text-align: center;
+	border-radius: 50px;
+	color: #ffffff;
+	width: 70%;
+}
+.canc{
+	background-color: red;
+	text-align: center;
+	border-radius: 50px;
+	color: #ffffff;
+	width: 70%;
+}
+
+.itens{
+	color: blue;
+}
+.editar{
+	color: yellow;
+}
+.excluir{
+	color: red;
+}
