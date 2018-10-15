@@ -1,0 +1,65 @@
+/* as tags basicas do site */
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+h2{
+	font-family: 'Amaranth', sans-serif;
+	font-weight: normal;
+	font-size: 2.4em;
+	color: #505050;
+}
+div.container{
+	display: flex;
+	height: 650px;
+}
+
+div.img_login{
+	background-image: url(sabri-tuzcu-365440.jpg);
+	background-size: 150% 100%;
+	width: 65%;
+	background-repeat: no-repeat;
+}
+div.loginbox{
+	margin: 5% 0% 0% 5%;
+}
+/* fim das tags basicas */
+
+p{
+	margin-bottom: 0%;
+	color: #606060;
+	font-size: 15px;
+}
+p#nao_possui{
+	margin-bottom: 2%;
+}
+
+.button{
+	background-color: #39cc6c;
+	padding: 1% 0.5rem 1% 0.5rem;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.button1{
+	background-color: #ffffff;
+	padding: 1% 0.5rem 1% 0.5rem;
+	border-radius: 5px;
+	text-align: center;
+	border-style: solid;
+    border-width: 1px;
+    border-color: #39cc6c;
+}
+
+a{
+	text-decoration: none;
+	color: #ffffff;
+}
+.abutton{
+	color: #39cc6c;
+}
+
+@media (max-width: 425px){
+	div.img_login{
+		display: none;
+	}
+}
