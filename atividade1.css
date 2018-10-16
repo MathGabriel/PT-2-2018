@@ -6,7 +6,13 @@ table tr.linha_principal td{
 	padding-bottom: 1%;
 	font-weight: bolder;
 }
-
+#center{
+	text-align: center;
+	color: #606060;
+}
+.color_let{
+	color: #606060;
+}
 .res_table td{
 	padding-top: 1%;
 	padding-bottom: 1%;
@@ -22,21 +28,21 @@ table tr.linha_principal td{
 .entr{
 	background-color: green;
 	text-align: center;
-	border-radius: 50px;
+	border-radius: 3px;
 	color: #ffffff;
 	width: 70%;
 }
 .pend{
 	background-color: blue;
 	text-align: center;
-	border-radius: 50px;
+	border-radius: 3px;
 	color: #ffffff;
 	width: 70%;
 }
 .canc{
 	background-color: red;
 	text-align: center;
-	border-radius: 50px;
+	border-radius: 3px;
 	color: #ffffff;
 	width: 70%;
 }
